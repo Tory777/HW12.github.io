@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  position: relative;
+  z-index: 5;
+  height: 100%;
+  min-height: 900px;
+  background: #FFB90F; }
+
+.form {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 5;
+  background: white;
+  font-family: "Tahoma";
+  font-size: 8px;
+  color: #4F4F4F;
+  margin-top: 4%;
+  margin-left: 25%;
+  height: 600px;
+  width: 570px;
+  text-align: left;
+  box-shadow: -5px 5px 20px 3px rgba(33, 30, 33, 0.44); }
+
+.form-header {
+  font-size: 13px;
+  margin-bottom: 15px; }
+
+.form-position {
+  box-sizing: border-box;
+  display: block;
+  width: calc(50% - 1px);
+  padding-top: 40px; }
+
+.login-form {
+  box-sizing: border-box;
+  float: left;
+  padding-left: 50px; }
+
+.input {
+  width: 150px;
+  height: 17px;
+  background: #FFFAFA;
+  border: 0.1px solid rgba(217, 214, 217, 0.5); }
+
+.login-form__input {
+  width: 180px;
+  height: 17px;
+  margin: 5px 0 5px;
+  margin-bottom: 10px;
+  background: #FFFAFA;
+  border: 0.1px solid rgba(217, 214, 217, 0.5); }
+
+.input-icon {
+  position: absolute;
+  z-index: 10;
+  margin-left: -15px;
+  margin-top: 9px; }
+
+.login-button, .sign-button {
+  background: #FFB90F;
+  width: 95px;
+  border-radius: 1px;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  height: 17px;
+  border: none; }
+
+.password-renewal {
+  font-weight: bold;
+  text-align: right;
+  font-size: 6px;
+  margin-right: 25%;
+  margin-top: 6px;
+  float: right; }
+
+.social-button-box {
+  width: 180px; }
+
+.social-button {
+  width: calc(32% - 5px);
+  height: 13px;
+  display: block;
+  border: none;
+  border-radius: 1px;
+  color: #ffffff;
+  font-size: 8px;
+  float: left;
+  margin-right: 8px;
+  text-align: left;
+  vertical-align: top;
+  font-size: 7px;
+  font-weight: bold; }
+
+.twit {
+  background: #1E90FF; }
+
+.fb {
+  background: #0000CD; }
+
+.social-button.goo {
+  background: #CD2626;
+  margin-right: 0; }
+
+.social-button img {
+  margin-right: 5px;
+  background-color: #ffffff;
+  vertical-align: middle; }
+
+.sign-in-with {
+  width: 180px;
+  display: inline-block; }
+
+.line {
+  display: inline-block;
+  width: calc(35% - 5px);
+  padding-top: 5px;
+  float: left;
+  margin: 15px auto; }
+
+.between {
+  width: 30%;
+  padding-top: 0;
+  margin-left: 3px;
+  margin-right: 3px; }
+
+.registration-form {
+  box-sizing: border-box;
+  float: right;
+  padding-right: 50px; }
+
+.registration-form-field {
+  height: 17px;
+  margin-bottom: 10px; }
+
+.registration-form-field .input {
+  float: right;
+  background: #FFFAFA; }
+
+.registration-form-field span {
+  vertical-align: middle; }
+
+.registration-form-field > .birth {
+  float: left; }
+
+.input.date-of-birth {
+  width: 18.75px;
+  float: left;
+  margin-right: 3px;
+  font-size: 8px;
+  text-align: center;
+  vertical-align: middle;
+  background: #FFFAFA; }
+
+.input.date-of-birth.mm {
+  margin-left: 14%; }
+
+.input.date-of-birth.year {
+  width: 25px; }
+
+.gender {
+  width: 40.5px;
+  text-align: right;
+  float: right;
+  color: #4F4F4F;
+  font-size: 7px;
+  height: 17px;
+  background: #FFFAFA;
+  border: 0.1px solid rgba(217, 214, 217, 0.5); }
+
+/*
+.gender-var{
+    font-size: $mainSize;
+}*/
+.tarea {
+  height: 50px;
+  margin-bottom: 10px; }
+
+.adress-block {
+  margin-left: 35%; }
+
+.adress-block__city, .adress-block__state {
+  display: inline-block;
+  float: left;
+  width: 70px; }
+
+.input.city, .input.state {
+  display: inline-block;
+  float: left;
+  background: #FFFAFA;
+  border: 0.1px solid rgba(217, 214, 217, 0.5);
+  width: 70px; }
+
+.adress-block__state {
+  margin-left: 8px;
+  margin-bottom: 0; }
+
+.adress-block .input {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.signup {
+  background: #32CD32;
+  margin-top: 10px; }
+
+.check {
+  height: 10px;
+  width: 10px;
+  /*box-shadow: 0px 0px 5px 1px rgba(5,5,255,0.46);*/ }
+
+.agree {
+  font-size: 7px;
+  font-weight: bold;
+  vertical-align: top; }
+
+.agree-window {
+  display: block;
+  margin: 520px auto;
+  margin-bottom: 50px;
+  width: 200px;
+  padding: 10px 10px;
+  border: 0.5px solid #d3d3d3;
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5); }
+
+.agree-window a {
+  text-decoration: none; }
